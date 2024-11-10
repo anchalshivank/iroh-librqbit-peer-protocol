@@ -1,0 +1,23 @@
+[package]
+name = "iroh-librqbit-peer-protocol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iroh = "0.28.1"
+librqbit-core = "4.0.1"
+librqbit-peer-protocol = "4.1.0"
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
+clap = { version = "4.5.2", features = ["derive"] }
+lru = "0.12.5"
+tower-http = { version = "0.6.1", features = ["cors"] }
+mime_classifier = "0.0.1"
+mime = "0.3.17"
+axum = "0.7.7"
+tracing-subscriber = "0.3.18"
+log = "0.4.22"
+anyhow = "1.0.93"
+futures-lite = "2.4.0"
+tracing = "0.1.40"
+iroh-net = "0.28.1"
+url = "2.5.3"
